@@ -6,8 +6,8 @@ bindings = <
 // ├──────────────┼───────────────┼───────────────┼────────────────┼──────────────┼──────────────┤  ├───────┼───────┼───────┼───────┼───────┼───────┤
      &bt BT_SEL 1   &lng_eng        &lng_lt         &lng_ru          &none          &out OUT_BLE      &none   &none   &none   &none   &none   &none
 // ├──────────────┼───────────────┼───────────────┼────────────────┼──────────────┼──────────────┤  ├───────┼───────┼───────┼───────┼───────┼───────┤
-     &bt BT_SEL 2   &kp C_BRI_DEC   &kp C_AC_HOME   &kp C_AL_EMAIL   &none          &out OUT_USB      &none   &none   &none   &none   &none   &none
+     &bt BT_SEL 2   &kp C_BRI_DEC   &kp C_AC_HOME   &kp C_AL_EMAIL   &out OUT_TOG   &out OUT_USB      &none   &none   &none   &none   &none   &none
 // ╰──────────────┴───────────────┴───────────────┼────────────────┼──────────────┼──────────────┤  ├───────┼───────┼───────┼───────┴───────┴───────╯
-                                                    &bt BT_SEL 3     &bt BT_SEL 4   &bt BT_SEL 5         &none   &none   &none
+                                                    &bt BT_SEL 3     &bt BT_SEL 4   &bt BT_SEL 5      &none   &none   &none
 //                                                ╰────────────────┴──────────────┴──────────────╯  ╰───────┴───────┴───────╯
 >;};
