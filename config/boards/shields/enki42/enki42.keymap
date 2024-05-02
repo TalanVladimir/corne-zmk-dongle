@@ -50,13 +50,8 @@
                 #include "keymap/2_raise.keymap"
                 #include "keymap/3_number.keymap"
                 #include "keymap/4_extra.keymap"
-
-                // LED CONFIG --- CHOOSE
-                // #include "keymap/5_led.keymap"
-                
-                // NICE!VIEW CONFIG --- CHOOSE
-                #include "keymap/5_view.keymap"
-
+                // #include "keymap/5_led.keymap" // LED CONFIG --- CHOOSE
+                #include "keymap/5_view.keymap" // NICE!VIEW CONFIG --- CHOOSE
                 #include "keymap/6_player.keymap"
         };
 };
