@@ -6,6 +6,9 @@ if SHIELD_ENKI42_DONGLE
 config ZMK_KEYBOARD_NAME
 	default "Corne-Dongle"
 	
+confit ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+	default 2
+	
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
 	
