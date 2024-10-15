@@ -10,7 +10,6 @@
 / {
     chosen {
         zephyr,code-partition = &code_partition;
-        zmk,battery = &vbatt;
         zmk,kscan = &kscan0;
     };
 
@@ -31,6 +30,7 @@
             , <&key_physical_attrs 100 100  700    0       0     0     0>
             , <&key_physical_attrs 100 100  800    0       0     0     0>
             , <&key_physical_attrs 100 100  900    0       0     0     0>
+
             , <&key_physical_attrs 100 100    0  100       0     0     0>
             , <&key_physical_attrs 100 100  100  100       0     0     0>
             , <&key_physical_attrs 100 100  200  100       0     0     0>
@@ -41,6 +41,7 @@
             , <&key_physical_attrs 100 100  700  100       0     0     0>
             , <&key_physical_attrs 100 100  800  100       0     0     0>
             , <&key_physical_attrs 100 100  900  100       0     0     0>
+
             , <&key_physical_attrs 100 100    0  200       0     0     0>
             , <&key_physical_attrs 100 100  100  200       0     0     0>
             , <&key_physical_attrs 100 100  200  200       0     0     0>
@@ -87,12 +88,5 @@
 			, <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			, <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			;
-		
-		vbatt: vbatt {
-			compatible = "zmk,battery-voltage-divider";
-			io-channels = <&adc 3>;
-			output-ohms = <10000000>;
-			full-ohms = <(10000000 + 2200000)>;
-		};
 	};
 };
