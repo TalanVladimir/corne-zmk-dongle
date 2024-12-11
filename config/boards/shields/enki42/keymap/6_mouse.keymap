@@ -4,13 +4,13 @@ maus_layer {
 
     bindings = <
     //╭───────┬──────────────┬────────────────┬────────────────┬─────────────────┬────────────────╮  ╭───────┬───────┬───────┬───────┬───────┬───────╮
-        &none   &none          &msc SCRL_LEFT   &none            &msc SCRL_RIGHT   &none               &none   &none   &none   &none   &none   &none
+        &none   &none          &none            &none            &none             &none               &none   &none   &none   &none   &none   &none
     //├───────┼──────────────┼────────────────┼────────────────┼─────────────────┼────────────────┤  ├───────┼───────┼───────┼───────┼───────┼───────┤
-        &none   &none          &mkp MB1         &mmv MOVE_DOWN   &mkp MB2          &msc SCRL_UP        &none   &none   &none   &none   &none   &none
+        &none   &none          &none            &mmv MOVE_UP     &none             &none               &none   &none   &none   &none   &none   &none
     //├───────┼──────────────┼────────────────┼────────────────┼─────────────────┼────────────────┤  ├───────┼───────┼───────┼───────┼───────┼───────┤
-        &none   &kp LEFT_GUI   &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT   &msc SCRL_DOWN      &none   &none   &none   &none   &none   &none
+        &none   &none          &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT   &none               &none   &none   &none   &none   &none   &none
     //╰───────┴──────────────┴────────────────┼────────────────┼─────────────────┼────────────────┤  ├───────┼───────┼───────┼───────┴───────┴───────╯
-                                                &none            &none             &none               &none   &none   &none
+                                                &kp SPACE        &none             &none               &none   &none   &none
     //                                        ╰────────────────┴─────────────────┴────────────────╯  ╰───────┴───────┴───────╯
     >;
 };
