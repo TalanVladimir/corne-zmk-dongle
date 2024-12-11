@@ -4,13 +4,13 @@ uber_layer {
 
     bindings = <
     //╭───────┬─────────┬─────────┬─────────┬─────────┬──────────╮  ╭───────┬───────┬───────┬───────┬───────┬───────╮
-        &XXX    &kp F13   &kp F14   &kp F15   &kp F16   &XXX          &XXX    &XXX    &XXX    &XXX    &XXX    &XXX 
+        &none   &kp F13   &kp F14   &kp F15   &kp F16   &none         &none   &none   &none   &none   &none   &none
     //├───────┼─────────┼─────────┼─────────┼─────────┼──────────┤  ├───────┼───────┼───────┼───────┼───────┼───────┤
-        &XXX    &kp F17   &kp F18   &kp F19   &kp F20   &XXX          &XXX    &XXX    &XXX    &XXX    &XXX    &XXX 
+        &none   &kp F17   &kp F18   &kp F19   &kp F20   &none         &none   &none   &none   &none   &none   &none
     //├───────┼─────────┼─────────┼─────────┼─────────┼──────────┤  ├───────┼───────┼───────┼───────┼───────┼───────┤
-        &XXX    &kp F21   &kp F22   &kp F23   &kp F24   &log_off      &XXX    &XXX    &XXX    &XXX    &XXX    &XXX 
+        &none   &kp F21   &kp F22   &kp F23   &kp F24   &log_off      &none   &none   &none   &none   &none   &none
     //╰───────┴─────────┴─────────┼─────────┼─────────┼──────────┤  ├───────┼───────┼───────┼───────┴───────┴───────╯
-                                    &XXX      &XXX      &XXX          &XXX    &XXX    &XXX 
+                                    &none     &none     &none         &none   &none   &none
     //                            ╰─────────┴─────────┴──────────╯  ╰───────┴───────┴───────╯
     >;
 };
