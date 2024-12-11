@@ -6,4 +6,4 @@
 #define EXTRA 4
 #define UBER 5
 #define PLAYER 6
-#define MOUSE 7
+#define MAUS 7
