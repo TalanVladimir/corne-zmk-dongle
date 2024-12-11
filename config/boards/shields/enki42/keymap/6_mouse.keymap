@@ -4,13 +4,13 @@ maus_layer {
 
     bindings = <
     //╭───────┬──────────────┬────────────────┬────────────────┬─────────────────┬────────────────╮  ╭───────┬───────┬───────┬───────┬───────┬───────╮
-        &none   &none          &none            &none            &none             &none               &none   &none   &none   &none   &none   &none
+        &XXX    &XXX           &XXX             &XXX             &XXX              &XXX                &XXX    &XXX    &XXX    &XXX    &XXX    &XXX 
     //├───────┼──────────────┼────────────────┼────────────────┼─────────────────┼────────────────┤  ├───────┼───────┼───────┼───────┼───────┼───────┤
-        &none   &none          &none            &mmv MOVE_UP     &none             &none               &none   &none   &none   &none   &none   &none
+        &XXX    &XXX           &XXX             &mmv MOVE_UP     &XXX              &XXX                &XXX    &XXX    &XXX    &XXX    &XXX    &XXX 
     //├───────┼──────────────┼────────────────┼────────────────┼─────────────────┼────────────────┤  ├───────┼───────┼───────┼───────┼───────┼───────┤
-        &none   &none          &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT   &none               &none   &none   &none   &none   &none   &none
+        &XXX    &XXX           &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT   &XXX                &XXX    &XXX    &XXX    &XXX    &XXX    &XXX 
     //╰───────┴──────────────┴────────────────┼────────────────┼─────────────────┼────────────────┤  ├───────┼───────┼───────┼───────┴───────┴───────╯
-                                                &kp SPACE        &none             &none               &none   &none   &none
+                                                &kp SPACE        &XXX              &XXX                &XXX    &XXX    &XXX 
     //                                        ╰────────────────┴─────────────────┴────────────────╯  ╰───────┴───────┴───────╯
     >;
 };
