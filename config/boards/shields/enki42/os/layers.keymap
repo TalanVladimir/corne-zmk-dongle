@@ -5,5 +5,5 @@
 #define NUMBER 3
 #define EXTRA 4
 #define UBER 5
-#define PLAYER 6
-#define MAUS 7
+#define MAUS 6
+#define PLAYER 7
