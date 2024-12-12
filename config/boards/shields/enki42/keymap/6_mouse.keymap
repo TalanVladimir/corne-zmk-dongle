@@ -1,3 +1,8 @@
+#define SC_L SCRL_LEFT
+#define SC_D SCRL_DOWN
+#define SC_U SCRL_UP
+#define SC_R SCRL_RIGHT
+
 #define MV_L MOVE_LEFT
 #define MV_D MOVE_DOWN
 #define MV_U MOVE_UP
@@ -11,11 +16,11 @@ maus_layer {
     //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮  ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &none         &none         &none         &none         &none         &none            &none         &none         &none         &none         &none         &none
     //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤  ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-        &kp LCTRL     &none         &none         &none         &none         &none            &none         &none         &none         &none         &none         &none
+        &kp LCTRL     &none         &none         &none         &none         &none            &mkp MB5   '  &msc SC_L     &msc SC_D     &msc SC_U     &msc SC_R     &none
     //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤  ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-        &kp LSHFT     &none         &none         &none         &none         &none            &none         &mmv MV_L     &mmv MV_D     &mmv MV_U     &mmv MV_R     &none
+        &kp LSHFT     &none         &none         &none         &none         &none            &mkp MB4      &mmv MV_L     &mmv MV_D     &mmv MV_U     &mmv MV_R     &none
     //╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤  ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                                  &mkp LCLK     &mkp RCLK     &mkp MCLK        &none         &mkp LCLK     &mkp RCLK
+                                                  &mkp MB1      &mkp MB2      &mkp MB3         &mkp MB3      &mkp MB1      &mkp MB2
     //                                          ╰─────────────┴─────────────┴─────────────╯  ╰─────────────┴─────────────┴─────────────╯
     >;
 };
