@@ -7,29 +7,19 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 30    // default: 10		
 #include <dt-bindings/zmk/pointing.h>
 
-// NICE!VIEW CONFIG
 #include "settings/nice_view.keymap"
-
-// HELPERS
 #include "helpers/combos.keymap"
-
-// PRESS SETTINGS
 #include "settings/press.keymap"
-
-// LAYERS
+#include "settings/mouse.keymap"
 #include "os/layers.keymap"
 
-// KEYS
-#include "os/keys.keymap"
-
-// KEYBOARD
 / {
         macros {
                 #include "os/macros.keymap"
         };
 
         behaviors {
-                // #include "os/tap_dance.keymap"
+                #include "os/tap_dance.keymap"
         };
 
         conditional_layers {

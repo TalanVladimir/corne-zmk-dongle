@@ -1,4 +1,3 @@
-// LAYERS NAMES
 #define BASE 0
 #define LOWER 1
 #define RAISE 2
