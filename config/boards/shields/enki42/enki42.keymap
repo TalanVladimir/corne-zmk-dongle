@@ -7,11 +7,13 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 60    // default: 10		
 #include <dt-bindings/zmk/pointing.h>
 
-#include "settings/nice_view.keymap"
 #include "helpers/combos.keymap"
+#include "os/layers.keymap"
+
+#include "settings/nice_view.keymap"
 #include "settings/press.keymap"
 #include "settings/mouse.keymap"
-#include "os/layers.keymap"
+#include "settings/soft_off.keymap"
 
 / {
         macros {
