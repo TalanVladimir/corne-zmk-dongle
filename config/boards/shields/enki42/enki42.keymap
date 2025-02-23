@@ -10,7 +10,7 @@
 #include "helpers/combos.keymap"
 #include "os/layers.keymap"
 
-// #include "settings/nice_view.keymap"
+#include "settings/nice_view.keymap"
 #include "settings/press.keymap"
 #include "settings/mouse.keymap"
 
