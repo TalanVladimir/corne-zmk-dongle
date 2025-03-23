@@ -48,16 +48,6 @@ lng_ru: lng_ru {
                 , <&macro_release &kp LCTRL &kp LSHFT>;
 };
 
-alt_summary: key_summary {
-        label = "ZM_key_summary";
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings
-                = <&macro_press &kp LALT>
-                , <&macro_tap &kp KP_N6 &kp KP_N1>
-                , <&macro_release &kp LALT>;
-};
-
 log_off: log_off {
         label = "ZM_log_off";
         compatible = "zmk,behavior-macro";
