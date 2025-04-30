@@ -8,7 +8,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #include "helpers/combos.keymap"
-#include "os/layers.keymap"
+#include "os/define.keymap"
 
 #include "settings/press.keymap"
 #include "settings/mouse.keymap"
